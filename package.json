@@ -1,0 +1,50 @@
+{
+  "name": "prueba-mercado-libre",
+  "version": "1.0.0",
+  "author": "Jose Pirela",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "test": "jest"
+  },
+  "dependencies": {
+    "@wojtekmaj/enzyme-adapter-react-17": "^0.6.1",
+    "jsdom": "^16.6.0",
+    "jsdom-global": "^3.0.2",
+    "next": "10.2.3",
+    "prop-types": "^15.7.2",
+    "react": "17.0.2",
+    "react-dom": "17.0.2",
+    "react-redux": "^7.2.4",
+    "react-styled-flexboxgrid": "^3.2.1",
+    "redux": "^4.1.0",
+    "redux-thunk": "^2.3.0",
+    "styled-components": "^5.3.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.11.4",
+    "@babel/preset-env": "^7.14.4",
+    "@babel/preset-react": "^7.13.13",
+    "@testing-library/react": "^11.2.7",
+    "babel-jest": "^27.0.2",
+    "enzyme": "^3.11.0",
+    "enzyme-adapter-react-16": "^1.15.6",
+    "enzyme-to-json": "^3.6.2",
+    "eslint": "^7.7.0",
+    "eslint-plugin-react": "^7.20.6",
+    "jest": "^27.0.4",
+    "jest-enzyme": "^7.1.2",
+    "react-test-renderer": "^17.0.2",
+    "redux-mock-store": "^1.5.4"
+  },
+  "moduleDirectories": [
+    "node_modules",
+    "src"
+  ],
+  "jest": {
+    "snapshotSerializers": [
+      "enzyme-to-json/serializer"
+    ]
+  }
+}
